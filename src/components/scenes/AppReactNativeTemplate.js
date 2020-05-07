@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Sample React Native AppReactNativeTemplate
  * https://github.com/facebook/react-native
  *
  * @format
@@ -10,9 +10,9 @@ import React from 'react';
 import {SafeAreaView, ScrollView, StatusBar, StyleSheet, Text, View} from 'react-native';
 
 import {Colors, LearnMoreLinks} from 'react-native/Libraries/NewAppScreen';
-import GlobalStyles from '../src/components/styles/GlobalStyles';
+import GlobalStyles from '../styles/GlobalStyles';
 
-const App: () => React$Node = () => {
+const AppReactNativeTemplate: () => React$Node = () => {
   return (
       <>
         <StatusBar barStyle="dark-content"/>
@@ -75,4 +75,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default AppReactNativeTemplate;
