@@ -1,0 +1,4 @@
+const defaultStore = {
+    user: {},
+    application: {},
+};
